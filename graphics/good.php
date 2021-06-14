@@ -1,12 +1,11 @@
 
-
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!DOCTYPE php PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xphp1/DTD/xphp1-transitional.dtd">
 <php xmlns="http://www.w3.org/1999/xphp"> <!-- tag closed in footer.php -->
 	
 <head>
-<title>Volumeone | Graphics | Good Magazine. Transparency</title>
+<title>Volumeone | Motion | Good Magazine. Cost of War</title>
 
 <meta http-equiv="content-type" content="text/php; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
@@ -24,7 +23,7 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!-- * * * * * * * * NEW CODE * * * * * * * * -->
-<body id="graphics" class="project"> <!-- tag closed in footer.php -->
+<body id="motion" class="project"> <!-- tag closed in footer.php -->
 <!-- * * * * * * End: NEW CODE * * * * * * * * -->
 
 <div class="page_wrap">
@@ -51,10 +50,10 @@
 				<a class="" href="../type/index.html"><span>Type</span></a>
 			</li>
 			<li class="nav_Motion">
-				<a class="" href="../motion/index.html"><span>Motion</span></a>
+				<a class="active" href="index.html"><span>Motion</span></a>
 			</li>
 			<li class="nav_Graphics">
-				<a class="active" href="index.html"><span>Graphics</span></a>
+				<a class="" href="../graphics/index.html"><span>Graphics</span></a>
 			</li>
 			<li class="nav_Web">
 				<a class="" href="../web/index.html"><span>Web</span></a>
@@ -73,7 +72,6 @@
 </div> <!-- close div#header -->
 </div> <!-- close div.header_wrap -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <div class="content_wrap">
@@ -84,15 +82,18 @@
 	<div class="left_col">
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<div class="project_info">
-			<h1>Good Magazine. Transparency. Information Graphics</h1>
+			<h1>Good Magazine. Cost of War</h1>
 			
 			<p class="description">
-Good Magazine required the creation of a series of information graphics centered around five topics - the hidden cost of war, the amount of energy burned by the average car vs. the average human, a glance at refugees worldwide, smokers by state and taxi queues in the USA. For the cost of war, a 3 minute motion project was also created to compliment the printed diagram.<br /><br />
-			<p><a href="../motion/good.php">Watch the Cost of War Video</a></p>
+	Volumeone worked with Good Magazine to develop this motion piece on the 3 Trillion Dollar Iraq War for the Transparency section of their website. The overall concept of a diagrammatic “War Machine” takes the viewer through the ten stages of aggregated war costs.
+			</p><br />
+			<p>
+			<a href="http://www.good.is/post/the-hidden-cost-of-war/" target="_blank">Visit the Good Magazine website</a> 
 			</p>
 		</div>
 		
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+		<!--
 		<div class="slideshow_controls">
 			<a class="prev disabled" href="">Previous</a>
 			<span class="count">
@@ -100,12 +101,12 @@ Good Magazine required the creation of a series of information graphics centered
 			</span>
 			<a class="next" href="">Next</a>
 		</div>
-		
+		-->
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<div class="sidebar_nav">
-			<a href="index.php">Back to Graphics</a>
+			<a href="index.php">Back to Motion</a>
 			<span>/</span>
-			<a href="goodprius.php">Next Project</a>
+			<a href="nickatnite.php">Next Project</a>
 		</div>
 		
 	</div> <!-- end: div.left_col -->
@@ -114,54 +115,38 @@ Good Magazine required the creation of a series of information graphics centered
 	<!-- Media Slideshow (right column) -->
 	<div class="right_col">
 		<div class="slideshow">
-			<ul>
-					
-					<li id="slide_1" class="slide image cur">
-						<img src="media/costofwar2.jpg" width="617" height="621" alt="" />
+				<ul><br />
+					<li id="slide_1" class="slide video">
+						<script type="text/javascript"><!--
+							QT_WritePoster_XHTML('', 'media/costofwar.jpg',
+								'media/costofwar.mov',
+								'630', '354', '',
+								'controller', 'true',
+								'autoplay', 'true',
+								'bgcolor', 'white',
+								'scale', 'aspect');
+						//-->
+						</script>
+						<noscript>
+						<object width="630" height="354" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+							<param name="src" value="media/costofwar.jpg" />
+							<param name="href" value="media/costofwar.mov" />
+							<param name="target" value="myself" />
+							<param name="controller" value="true" />
+							<param name="autoplay" value="true" />
+							<param name="scale" value="aspect" />
+							<embed width="630" height="358" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+								src="media/costofwar.jpg"
+								href="costofwar.mov"
+								target="myself"
+								controller="true"
+								autoplay="true"
+								scale="aspect">
+							</embed>
+						</object>
+						</noscript>
 					</li>
-
-					
-					<li id="slide_2" class="slide image ">
-						<img src="media/costofwar1.jpg" width="617" height="621" alt="" />
-					</li>
-
-					
-					<li id="slide_3" class="slide image ">
-						<img src="media/costofwar3.jpg" width="617" height="621" alt="" />
-					</li>
-
-					
-					<li id="slide_4" class="slide image ">
-						<img src="media/fuel2.jpg" width="617" height="621" alt="" />
-					</li>
-
-					
-					<li id="slide_5" class="slide image ">
-						<img src="media/fuel3.jpg" width="617" height="621" alt="" />
-					</li>
-
-					
-					<li id="slide_6" class="slide image ">
-						<img src="media/taxi.jpg" width="617" height="621" alt="" />
-					</li>
-
-					
-					<li id="slide_7" class="slide image ">
-						<img src="media/smoke.jpg" width="617" height="621" alt="" />
-					</li>
-
-					
-					<li id="slide_8" class="slide image ">
-						<img src="media/refugees1.jpg" width="617" height="621" alt="" />
-					</li>
-
-					
-					<li id="slide_9" class="slide image ">
-						<img src="media/refugees2.jpg" width="617" height="621" alt="" />
-					</li>
-
-																													
-				<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide -->
+				<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide --><br />
 			</ul>
 		</div>
 	</div> <!-- end: div.right_col -->
@@ -185,11 +170,11 @@ Good Magazine required the creation of a series of information graphics centered
 			</li>
 			<span>/</span>
 			<li class="nav_Graphics">
-				<a href="index.html">Graphics</a>
+				<a href="../graphics/index.html">Graphics</a>
 			</li>			
 			<span>/</span>
 			<li class="nav_Motion">
-				<a href="../motion/index.html">Motion</a>
+				<a href="index.html">Motion</a>
 			</li>
 			<span>/</span>
 			<li class="nav_Web">

@@ -5,7 +5,7 @@
 <php xmlns="http://www.w3.org/1999/xphp"> <!-- tag closed in footer.php -->
 	
 <head>
-<title>Volumeone | Motion | Meridians</title>
+<title>Volumeone | Motion | Sundance Channel. Foley</title>
 
 <meta http-equiv="content-type" content="text/php; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
@@ -82,10 +82,10 @@
 	<div class="left_col">
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<div class="project_info">
-			<h1>Volumeone Showreel</h1>
+			<h1>Sundance Channel. Foley</h1>
 			
 			<p class="description">
-				Short form motion project. Skulls, a cougar and eagle roam through time and space as a lighthouse keeps us company.
+			2 minute promo for Sundance Channel focusing on foley artists. Co-developed with <a href="http://www.imdb.com/name/nm0928139/" target="_blank">Chris Wilcha</a> and  <a href="hhttp://www.amoebalabs.com/" target="_blank">David Ahuja</a>.
 			</p>
 		</div>
 		
@@ -103,7 +103,7 @@
 		<div class="sidebar_nav">
 			<a href="index.php">Back to Motion</a>
 			<span>/</span>
-			<a href="suspension.php">Next Project</a>
+			<a href="madlib.php">Next Project</a>
 		</div>
 		
 	</div> <!-- end: div.left_col -->
@@ -112,11 +112,11 @@
 	<!-- Media Slideshow (right column) -->
 	<div class="right_col">
 		<div class="slideshow">
-				<ul><br />
+				<ul><br /><center>
 					<li id="slide_1" class="slide video">
 						<script type="text/javascript"><!--
-							QT_WritePoster_XHTML('', 'media/meridians.jpg',
-								'media/meridians.mov',
+							QT_WritePoster_XHTML('', 'media/foley.jpg',
+								'media/foley.mov',
 								'630', '354', '',
 								'controller', 'true',
 								'autoplay', 'true',
@@ -126,15 +126,15 @@
 						</script>
 						<noscript>
 						<object width="630" height="354" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
-							<param name="src" value="media/meridians.jpg" />
-							<param name="href" value="media/meridians.mov" />
+							<param name="src" value="media/foley.jpg" />
+							<param name="href" value="media/foley.mov" />
 							<param name="target" value="myself" />
 							<param name="controller" value="true" />
 							<param name="autoplay" value="true" />
 							<param name="scale" value="aspect" />
 							<embed width="630" height="358" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
-								src="media/meridians.jpg"
-								href="meridians.mov"
+								src="media/foley.jpg"
+								href="foley.mov"
 								target="myself"
 								controller="true"
 								autoplay="true"
@@ -142,7 +142,7 @@
 							</embed>
 						</object>
 						</noscript>
-					</li>
+					</li></center>
 				<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide --><br />
 			</ul>
 		</div>
