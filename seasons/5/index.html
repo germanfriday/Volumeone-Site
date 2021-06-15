@@ -1,0 +1,156 @@
+<HTML>
+<HEAD>
+<TITLE>volumeone | series2 | Spring 1998</TITLE>
+<script language="JavaScript">
+
+
+// Define Browser Version (c) 1996-97 DesertNet
+
+ver = "";
+
+bName = navigator.appName;
+
+bVer = parseInt(navigator.appVersion);
+
+if (bName == "Netscape" && bVer >= 3) ver = "n3";
+
+
+
+function imgToggle(imgObjectName, imgObjectState) {
+
+  if (ver == "n3") {
+
+    imgObject = new Object();
+
+    imgObject = imgObjectName;
+
+    imgObject.src = imgObjectState;
+
+  }
+
+}
+
+
+
+function imgPreLoad(i, img) {
+
+  if (ver == "n3") {
+
+    cacheImg[i] = new Image();
+
+    cacheImg[i].src = img;
+
+  }
+
+}
+
+
+
+// Declare and Load Images
+
+spring97 = "images/spring98nav/spring97.gif";
+
+summer97 = "images/spring98nav/summer97.gif";
+
+autumn97 = "images/spring98nav/autumn97.gif";
+
+winter97 = "images/spring98nav/winter97.gif";
+
+spring98 = "images/spring98nav/spring98.gif";
+
+company = "images/spring98nav/company.gif";
+
+cacheImg = new Array();
+
+imgPreLoad(0,spring97);
+
+imgPreLoad(1,summer97);
+
+imgPreLoad(2,autumn97);
+
+imgPreLoad(3,winter97);
+
+imgPreLoad(4,spring98);
+
+imgPreLoad(5,company);
+
+
+// End Script -->
+
+</script>
+
+ <script>
+function openWin5x() {
+var n=open('../del/frame.html','delwindow','width=567,height=426,status=yes,menubar=no,scrolling=no,scrollbars=no,scrollable=no,resizable=no');
+}
+</script>
+
+<script>
+function openWin6x() {
+var n=open('../nav.html','navi','width=250,height=30,status=yes,menubar=no,scrollable=no,resizable=no');
+}
+</script>
+
+ <script>
+function openWin5() {
+ top.location.href ='../del/index.html';
+}
+</script>
+
+<script>
+function openWin6() {
+ top.location.href ='../del/index2.html';
+}
+</script>
+
+ <script>
+function openWina() {
+var n=open('colorweb/frame.html','bigopen','width=460,height=385,status=yes,menubar=no,scrolling=no,scrollbars=no,scrollable=no,resizable=yes');
+}
+</script>
+
+ <script>
+function openWinb() {
+var n=open('blindweb/index.html','blindopen','width=520,height=200,status=yes,menubar=no,scrolling=no,scrollbars=no,scrollable=no,resizable=yes');
+}
+</script>
+
+ <script>
+function openWinc() {
+var n=open('maxims/1.html','maximsopen','width=580,height=390,status=yes,menubar=no,scrolling=no,scrollbars=no,scrollable=no,resizable=yes');
+}
+</script>
+
+ <script>
+function openWind() {
+var n=open('sxweb/intro.html','sxopen','width=252,height=310,status=yes,menubar=no,scrolling=no,scrollbars=no,scrollable=no,resizable=yes');
+}
+</script>
+
+</HEAD>
+<BODY BACKGROUND="images/bknew.gif" BGCOLOR="#FFFFFF">
+<MAP NAME="sections">
+<AREA SHAPE="rect" COORDS="65,95,92,116" HREF = "javascript:openWina()" onMouseover = "window.status='helpful lessons in color'; return true">
+<AREA SHAPE="rect" COORDS="101,94,130,117" HREF = "javascript:openWinb()" onMouseover = "window.status='the blinders'; return true">
+<AREA SHAPE="rect" COORDS="137,93,165,119" HREF = "javascript:openWinc()" onMouseover = "window.status='maxims'; return true">
+<AREA SHAPE="rect" COORDS="173,93,200,118" HREF = "javascript:openWind()" onMouseover = "window.status='sx 70 picture gallery'; return true">
+</MAP>
+<center>
+<br>
+<nobr><a href=""><img ismap border=0 usemap="#sections" src="images/left.gif"></a><img src="images/main.gif" border=0><img src="images/right.gif"><br clear=all>
+<center>
+<img src="images/spacer.gif" height=25 border=0><br clear=all>
+<img ismap src="images/spnav.gif" usemap="#nav2" border=0>
+
+
+<MAP NAME="nav2">
+<AREA SHAPE=RECT COORDS="385,0,481,46" HREF="../del/index.html" target="bigarea" onMouseover = "window.status='company information'; return true">
+
+<AREA SHAPE=RECT COORDS="0,4,100,40" HREF="../del/index.html" target="bigarea" onMouseover = "window.status='the seasons'; return true">
+
+
+</map>
+
+</center>
+</BODY>
+</HTML>

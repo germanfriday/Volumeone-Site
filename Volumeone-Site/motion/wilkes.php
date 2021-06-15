@@ -1,0 +1,302 @@
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<!DOCTYPE php PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xphp1/DTD/xphp1-transitional.dtd">
+<php xmlns="http://www.w3.org/1999/xphp"> <!-- tag closed in footer.php -->
+	
+<head>
+<title>Volumeone | Motion | Wilkes University. Be Colonel Campaign</title>
+
+<meta http-equiv="content-type" content="text/php; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	
+<script src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="../js/v1.controller.js" type="text/javascript"></script>
+
+<script src="../js/ac_quicktime.js" language="JavaScript" type="text/javascript"></script>
+<script src="../js/qtp_library.js" language="JavaScript" type="text/javascript"></script>
+<link href="../css/qtp_library.css" rel="StyleSheet" type="text/css" />
+
+</head>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<!-- * * * * * * * * NEW CODE * * * * * * * * -->
+<body id="motion" class="project"> <!-- tag closed in footer.php -->
+<!-- * * * * * * End: NEW CODE * * * * * * * * -->
+
+<div class="page_wrap">
+
+<div class="header_wrap">
+<div id="header">
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+	
+	<!-- logo -->
+	
+	<div class="v1_logo">
+		<h2>			<a href="../index.html">
+				<span>VolumeOne</span>
+			</a>
+		</h2>	</div>
+	
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+	
+	<!-- navigation -->
+	<div class="top_nav">
+		<ul>
+			<!-- * * * * * * * * NEW CODE * * * * * * * * -->
+			<li class="nav_Type">
+				<a class="" href="../type/index.html"><span>Type</span></a>
+			</li>
+			<li class="nav_Motion">
+				<a class="active" href="index.html"><span>Motion</span></a>
+			</li>
+			<li class="nav_Graphics">
+				<a class="" href="../graphics/index.html"><span>Graphics</span></a>
+			</li>
+			<li class="nav_Web">
+				<a class="" href="../web/index.html"><span>Web</span></a>
+			</li>
+			<li class="nav_AboutContact">
+				<a class="" href="../about.php"><span>About + Contact</span></a>
+			</li><!--
+			<li class="nav_Blog">
+				<a href=""><span>Blog</span></a>
+			</li>
+			-->
+			<!-- * * * * * * End: NEW CODE * * * * * * * * -->
+		</ul>
+	</div>
+	
+</div> <!-- close div#header -->
+</div> <!-- close div.header_wrap -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<div class="content_wrap">
+<div id="content">
+
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+	<!-- Project Description (left column) -->
+	<div class="left_col">
+		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+		<div class="project_info">
+			<h1>Wilkes University. Be Colonel Campaign</h1>
+			
+			<p class="description">
+Design, Animation and Music for four spots for Wilkes University. "Be Colonel" Campaign contracted by <a href="http://www.160over90.com" target="_blank">106over90</a>. Animation developed with <a href="http://www.athleticsnyc.com/" target="_blank">Athletics</a> member <a href="http://www.amoebalabs.com" target="_blank">David Ahuja</a>
+			</p>
+		</div>
+		
+		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+		<!--
+		<div class="slideshow_controls">
+			<a class="prev disabled" href="">Previous</a>
+			<span class="count">
+				<span class="cur">0</span> of <span class="total">0</span>
+			</span>
+			<a class="next" href="">Next</a>
+		</div>
+		-->
+		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+		<div class="sidebar_nav">
+			<a href="index.php">Back to Motion</a>
+			<span>/</span>
+			<a href="good.php">Next Project</a>
+		</div>
+		
+	</div> <!-- end: div.left_col -->
+	
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+	<!-- Media Slideshow (right column) -->
+	<div class="right_col">
+		<div class="slideshow">
+			<ul><br />
+				<li id="slide_1" class="slide video">
+					<script type="text/javascript"><!--
+						QT_WritePoster_XHTML('', 'media/wilkes1.jpg',
+							'media/wilkes_30.mov',
+							'630', '354', '',
+							'controller', 'true',
+							'autoplay', 'true',
+							'bgcolor', 'white',
+							'scale', 'aspect');
+					//-->
+					</script>
+					<noscript>
+					<object width="630" height="354" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+						<param name="src" value="media/wilkes1.jpg" />
+						<param name="href" value="media/wilkes_30.mov" />
+						<param name="target" value="myself" />
+						<param name="controller" value="true" />
+						<param name="autoplay" value="true" />
+						<param name="scale" value="aspect" />
+						<embed width="630" height="358" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+							src="media/wilkes1.jpg"
+							href="wilkes_30.mov"
+							target="myself"
+							controller="true"
+							autoplay="true"
+							scale="aspect">
+						</embed>
+					</object>
+					</noscript>
+				</li>
+			<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide --><br />
+			<li id="slide_1" class="slide video">
+				<script type="text/javascript"><!--
+					QT_WritePoster_XHTML('', 'media/wilkes2.jpg',
+						'media/wilkes_60_1.mov',
+						'630', '354', '',
+						'controller', 'true',
+						'autoplay', 'true',
+						'bgcolor', 'white',
+						'scale', 'aspect');
+				//-->
+				</script>
+				<noscript>
+				<object width="630" height="354" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+					<param name="src" value="media/wilkes2.jpg" />
+					<param name="href" value="media/wilkes_60_1.mov" />
+					<param name="target" value="myself" />
+					<param name="controller" value="true" />
+					<param name="autoplay" value="true" />
+					<param name="scale" value="aspect" />
+					<embed width="630" height="358" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+						src="media/wilkes2.jpg"
+						href="wilkes_60_1.mov"
+						target="myself"
+						controller="true"
+						autoplay="true"
+						scale="aspect">
+					</embed>
+				</object>
+				</noscript>
+			</li>
+			<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide --><br />
+			<li id="slide_1" class="slide video">
+				<script type="text/javascript"><!--
+					QT_WritePoster_XHTML('', 'media/wilkes3.jpg',
+						'media/wilkes_60_2.mov',
+						'630', '354', '',
+						'controller', 'true',
+						'autoplay', 'true',
+						'bgcolor', 'white',
+						'scale', 'aspect');
+				//-->
+				</script>
+				<noscript>
+				<object width="630" height="354" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+					<param name="src" value="media/wilkes3.jpg" />
+					<param name="href" value="media/wilkes_60_2.mov" />
+					<param name="target" value="myself" />
+					<param name="controller" value="true" />
+					<param name="autoplay" value="true" />
+					<param name="scale" value="aspect" />
+					<embed width="630" height="358" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+						src="media/wilkes3.jpg"
+						href="wilkes_60_2.mov"
+						target="myself"
+						controller="true"
+						autoplay="true"
+						scale="aspect">
+					</embed>
+				</object>
+				</noscript>
+			</li>
+			<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide --><br />
+			<li id="slide_1" class="slide video">
+				<script type="text/javascript"><!--
+					QT_WritePoster_XHTML('', 'media/wilkes4.jpg',
+						'media/wilkes_60_3.mov',
+						'630', '354', '',
+						'controller', 'true',
+						'autoplay', 'true',
+						'bgcolor', 'white',
+						'scale', 'aspect');
+				//-->
+				</script>
+				<noscript>
+				<object width="630" height="354" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+					<param name="src" value="media/wilkes4.jpg" />
+					<param name="href" value="media/wilkes_60_3.mov" />
+					<param name="target" value="myself" />
+					<param name="controller" value="true" />
+					<param name="autoplay" value="true" />
+					<param name="scale" value="aspect" />
+					<embed width="630" height="358" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
+						src="media/wilkes4.jpg"
+						href="wilkes_60_3.mov"
+						target="myself"
+						controller="true"
+						autoplay="true"
+						scale="aspect">
+					</embed>
+				</object>
+				</noscript>
+			</li>
+			<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide --><br />
+		</ul>
+		</div>
+	</div> <!-- end: div.right_col -->
+	
+</div> <!-- close div#content -->
+</div> <!-- close div.content_wrap -->
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<div class="footer_wrap">
+<div id="footer">
+	
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+	
+	<!-- navigation -->
+	<div class="bottom_nav">
+		<ul>
+			<li class="nav_Type">
+				<a href="../type/index.html">Type</a>
+			</li>
+			<span>/</span>
+			<li class="nav_Graphics">
+				<a href="../graphics/index.html">Graphics</a>
+			</li>			
+			<span>/</span>
+			<li class="nav_Motion">
+				<a href="index.html">Motion</a>
+			</li>
+			<span>/</span>
+			<li class="nav_Web">
+				<a href="../web/index.html">Web</a>
+			</li>
+			<span>/</span>
+			<li class="nav_AboutContact">
+				<a href="../about.php">About + Contact</a>
+			</li><!--
+			<span>/</span>
+			<li class="nav_Blog">
+				<a href="">Blog</a>
+			</li>-->
+		</ul>
+	</div>
+	<div class="bottom_nav_copyright">
+		<ul>
+			<li class="nav_copyright">
+			&copy; 2011 Volumeone LLC. All Right Reserved.
+			</li>
+		</ul>	
+	</div?>
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> 
+	</script> 
+	<script type="text/javascript"> 
+	_uacct = "UA-553156-1";
+	urchinTracker();
+	</script>
+</div> <!-- close div#footer -->
+</div> <!-- close div.footer_wrap -->
+
+</div> <!-- close div.page_wrap -->
+</body> <!-- tag opened in header.php -->
+</php> <!-- tag opened in header.php -->
+<!-- Localized -->

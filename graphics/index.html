@@ -1,11 +1,10 @@
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <!DOCTYPE php PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xphp1/DTD/xphp1-transitional.dtd">
 <php xmlns="http://www.w3.org/1999/xphp"> <!-- tag closed in footer.php -->
 	
 <head>
-<title>Volumeone | Motion</title>
+<title>Volumeone | Graphics</title>
 
 <meta http-equiv="content-type" content="text/php; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
@@ -23,7 +22,7 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!-- * * * * * * * * NEW CODE * * * * * * * * -->
-<body id="motion" class="category"> <!-- tag closed in footer.php -->
+<body id="graphics" class="category"> <!-- tag closed in footer.php -->
 <!-- * * * * * * End: NEW CODE * * * * * * * * -->
 
 <div class="page_wrap">
@@ -50,10 +49,10 @@
 				<a class="" href="../type/index.html"><span>Type</span></a>
 			</li>
 			<li class="nav_Motion">
-				<a class="active" href="index.html"><span>Motion</span></a>
+				<a class="" href="../motion/index.html"><span>Motion</span></a>
 			</li>
 			<li class="nav_Graphics">
-				<a class="" href="../graphics/index.html"><span>Graphics</span></a>
+				<a class="active" href="index.html"><span>Graphics</span></a>
 			</li>
 			<li class="nav_Web">
 				<a class="" href="../web/index.html"><span>Web</span></a>
@@ -70,8 +69,7 @@
 	</div>
 	
 </div> <!-- close div#header -->
-</div> <!-- close div.header_wrap -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+</div> <!-- close div.header_wrap --><!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <div class="content_wrap">
@@ -84,226 +82,237 @@
 		<div class="project_row">
 			
 			<div class="project first">
-				<a class="thumb" href="ssfiv.php">
-					<img class="thumb" src="thumbs/ssfiv_small.jpg">
+				<a class="thumb" href="nationaltrainday.php">
+					<img class="thumb" src="thumbs/thumb_trainday.jpg">
 				</a>
 				
 				<h3 class="thumb_title">
-					<a href="nymag_00s.php">Super Street Fighter IV</a>
+					<a href="nationaltrainday.php">National Train Day</a>
 				</h3>
-				<p class="caption">TV Commercial</p>
+				<p class="caption">Campaign Graphics</p>
 			</div>
 			
 			
 			<div class="project">
-				<a class="thumb" href="showreel.php">
-					<img class="thumb" src="thumbs/thumb_showreel.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="">Volumeone Showreel</a>
-				</h3>
-				<p class="caption">A selection of our latest motion work</p>
-			</div>
+					<a class="thumb" href="forbes.php">
+						<img class="thumb" src="thumbs/thumb_forbes2.jpg">
+					</a>
+
+					<h3 class="thumb_title">
+						<a href="forbes.php">Forbes</a>
+					</h3>
+					<p class="caption">Magazine Redesign. Covers. Illustrations</p>
+				</div>
 			
 			
 			<div class="project">
-				<a class="thumb" href="road.php">
-					<img class="thumb" src="thumbs/thumb_road.jpg">
+				<a class="thumb" href="zooyork.php">
+					<img class="thumb" src="thumbs/thumb_zoo.jpg">
 				</a>
 				
 				<h3 class="thumb_title">
-					<a href="">The Road Less Traveled</a>
+					<a href="zooyork.php">The Urbane Jungle</a>
 				</h3>
-				<p class="caption">Short form motion piece</p>
+				<p class="caption">Zoo York Skateboards</p>
 			</div>
+
 			
 		</div> <!-- end: row 1 -->
-		<!-- row 2 -->
+		<!-- row 1 -->
 		<div class="project_row">
 			
 			<div class="project first">
-				<a class="thumb" href="wilkes.php">
-					<img class="thumb" src="thumbs/thumb_wilkes.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="nymag_00s.php">Wilkes University. Be Colonel</a>
-				</h3>
-				<p class="caption">Be Colonel campaign for Wilkes University</p>
-			</div>
-			
-			
-			<div class="project">
 				<a class="thumb" href="good.php">
 					<img class="thumb" src="thumbs/thumb_good.jpg">
 				</a>
 				
 				<h3 class="thumb_title">
-					<a href="good.php">Good Magazine. Cost of War</a>
+					<a href="good.php">Good Magazine. The Cost of War</a>
 				</h3>
-				<p class="caption">Short form spot for Good Magazine</p>
+				<p class="caption">Transparency</p>
 			</div>
 			
 			
 			<div class="project">
-				<a class="thumb" href="nickatnite.php">
-					<img class="thumb" src="thumbs/thumb_nick.jpg">
+				<a class="thumb" href="goodprius.php">
+					<img class="thumb" src="thumbs/thumb_goodprius.jpg">
+				</a>
+
+				<h3 class="thumb_title">
+					<a href="goodprius.php">Good Magazine / Prius</a>
+				</h3>
+				<p class="caption">Information graphics</p>
+			</div>
+			
+			
+			<div class="project">
+				<a class="thumb" href="goodsop.php">
+					<img class="thumb" src="thumbs/thumb_sop.jpg">
 				</a>
 				
 				<h3 class="thumb_title">
-					<a href="nickatnite.php">Nick at Nite</a>
+					<a href="goodsop.php">Good Magazine. State of the Planet</a>
 				</h3>
-				<p class="caption">Promo spot for Black History Month</p>
+				<p class="caption">Information graphics</p>
 			</div>
 			
 		</div> <!-- end: row 1 -->
-		
-		<!-- row 4 -->
+		<!-- row 1 -->
 		<div class="project_row">
-			
+
 			<div class="project first">
+				<a class="thumb" href="fastcompany2.php">
+					<img class="thumb" src="thumbs/thumb_fastco1.jpg">
+				</a>
+
+				<h3 class="thumb_title">
+					<a href="fastcompany2.php">Fast Company</a>
+				</h3>
+				<p class="caption">Advocates Versus Followers</p>
+			</div>
+
+
+			<div class="project">
+				<a class="thumb" href="ge.php">
+					<img class="thumb" src="thumbs/thumb_ge.jpg">
+				</a>
 				
-					<a class="thumb" href="mtvsb.php">
-						<img class="thumb" src="thumbs/thumb_mtvsb.jpg">
+				<h3 class="thumb_title">
+					<a href="ge.php">General Electric</a>
+				</h3>
+				<p class="caption">Vehicle Infrastructure</p>
+			</div>
+
+
+			<div class="project">
+				<a class="thumb" href="bloomberg.php">
+					<img class="thumb" src="thumbs/thumb_bloomberg.jpg">
+				</a>
+
+				<h3 class="thumb_title">
+					<a href="bloomberg.php">Bloomberg Businessweek</a>
+				</h3>
+				<p class="caption">Graphics, Icons and Symbols</p>
+			</div>
+
+		</div> <!-- end: row 1 -->		
+	
+				<!-- row 1 -->
+				<div class="project_row">
+
+					<div class="project first">
+						<a class="thumb" href="aiga.php">
+							<img class="thumb" src="thumbs/thumb_aiga.jpg">
+						</a>
+
+						<h3 class="thumb_title">
+							<a href="aiga.php">AIGA. Smart Models</a>
+						</h3>
+						<p class="caption">Lecture Information Graphics</p>
+					</div>
+
+
+					<div class="project">
+						<a class="thumb" href="seattlelottery.php">
+							<img class="thumb" src="thumbs/thumb_lotto.jpg">
+						</a>
+
+						<h3 class="thumb_title">
+							<a href="seattlelottery.php">Washington State Lottery</a>
+						</h3>
+						<p class="caption">Ad Campaign</p>
+					</div>
+
+
+					<div class="project">
+						<a class="thumb" href="un.php">
+							<img class="thumb" src="thumbs/thumb_un.jpg">
+						</a>
+
+						<h3 class="thumb_title">
+							<a href="un.php">United Nations</a>
+						</h3>
+						<p class="caption">OCHA Symbol Set</p>
+					</div>
+
+				</div> <!-- end: row 1 -->
+			<!-- row 1 -->
+			<div class="project_row">
+
+				<div class="project first">
+						<a class="thumb" href="meridians.php">
+							<img class="thumb" src="thumbs/mer_small.jpg">
+						</a>
+
+						<h3 class="thumb_title">
+							<a href="meridians.php">Meridians</a>
+						</h3>
+						<p class="caption">Booklet, Stickers, Video</p>
+					</div>
+
+
+				<div class="project">
+						<a class="thumb" href="suspension.php">
+							<img class="thumb" src="thumbs/thumb_hang.jpg">
+						</a>
+
+						<h3 class="thumb_title">
+							<a href="suspension.php">Suspension of Disbelief</a>
+						</h3>
+						<p class="caption">Booklet Stickers and video</p>
+					</div>
+
+
+				<div class="project">
+					<a class="thumb" href="earth.php">
+						<img class="thumb" src="thumbs/thumb_earth.jpg">
 					</a>
 
 					<h3 class="thumb_title">
-						<a href="mtvsb.php">MTV Spring Break</a>
+						<a href="earth.php">Spaceship Earth</a>
 					</h3>
-					<p class="caption">Network Packaging</p>
+					<p class="caption">Booklet, Stickers and video</p>
 				</div>
-	
-			<div class="project">
-				<a class="thumb" href="vh1leak.php">
-					<img class="thumb" src="thumbs/thumb_leak.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="vh1leak.php">VH1. The Leak</a>
-				</h3>
-				<p class="caption">Show Packaging</p>
-			</div>
-			<div class="project">
-				<a class="thumb" href="trl.php">
-					<img class="thumb" src="thumbs/thumb_trl.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="trl.php">MTV. TRL</a>
-				</h3>
-				<p class="caption">Show Packaging</p>
-			</div>
-		</div> <!-- end: row 4 -->
-		
-		<!-- row 3 -->
-		<div class="project_row">
-			
-			<div class="project first">
-				<a class="thumb" href="meridians.php">
-					<img class="thumb" src="thumbs/thumb_mer.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="meridians.php">Meridians</a>
-				</h3>
-				<p class="caption">Short Form motion piece</p>
-			</div>
-			
-			
-			<div class="project">
-				<a class="thumb" href="suspension.php">
-					<img class="thumb" src="thumbs/thumb_hang.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="">Suspension of Disbelief</a>
-				</h3>
-				<p class="caption">Short Form motion piece</p>
-			</div>
-			
-			
-			<div class="project">
-				<a class="thumb" href="spaceshipearth.php">
-					<img class="thumb" src="thumbs/thumb_earth.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="spaceshipearth.php">Spaceship Earth</a>
-				</h3>
-				<p class="caption">Short Form motion piece</p>
-			</div>
-			
-		</div> <!-- end: row 3 -->
 
-		<!-- row 5 -->
-		<div class="project_row">
-			
-			<div class="project first">
-				<a class="thumb" href="chinagirl.php">
-					<img class="thumb" src="thumbs/thumb_china.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="chinagirl.php">Sundance Channel. China Girl</a>
-				</h3>
-				<p class="caption">Short Form motion piece</p>
-			</div>
-			
-			
-			<div class="project">
-				<a class="thumb" href="greenscreen.php">
-					<img class="thumb" src="thumbs/thumb_green.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="greenscreen.php">Sundance Channel. Green Screen</a>
-				</h3>
-				<p class="caption">Short Form motion piece</p>
-			</div>
-			
-			
-			<div class="project">
-				<a class="thumb" href="foley.php">
-					<img class="thumb" src="thumbs/thumb_foley.jpg">
-				</a>
-				
-				<h3 class="thumb_title">
-					<a href="foley.php">Sundance Channel. Foley</a>
-				</h3>
-				<p class="caption">Short Form motion piece</p>
-			</div>
-			
-		</div> <!-- end: row 5 -->
-		
-		<!-- row 5 -->
-		<div class="project_row">
-			
-			<div class="project first">
-						<a class="thumb" href="madlib.php">
-							<img class="thumb" src="thumbs/thumb_madlib.jpg">
-						</a>
+			</div> <!-- end: row 1 -->		
+			<!-- row 1 -->
+			<div class="project_row">
 
-						<h3 class="thumb_title">
-							<a href="foley.php">Madlib. Slim's Return</a>
-						</h3>
-						<p class="caption">Music Video. Blue Note Records</p>
-					</div>
+				<div class="project first">
+					<a class="thumb" href="broken.php">
+						<img class="thumb" src="thumbs/thumb_broken.jpg">
+					</a>
+
+					<h3 class="thumb_title">
+						<a href="broken.php">Broken Studies</a>
+					</h3>
+					<p class="caption">Silkscreen wood panels</p>
+				</div>
+
+
+				<div class="project">
+					<a class="thumb" href="puma.php">
+						<img class="thumb" src="thumbs/thumb_puma.jpg">
+					</a>
+
+					<h3 class="thumb_title">
+						<a href="puma.php">Athletics For Puma</a>
+					</h3>
+					<p class="caption">In-store graphics</p>
+				</div>
 				
 				<div class="project">
-						<a class="thumb" href="peopletv.php">
-							<img class="thumb" src="thumbs/thumb_people.jpg">
-						</a>
+					<a class="thumb" href="meanstreak.php">
+						<img class="thumb" src="thumbs/thumb_mean.jpg">
+					</a>
 
-						<h3 class="thumb_title">
-							<a href="peopletv.php">People TV</a>
-						</h3>
-						<p class="caption">Channel Branding and Show Packaging</p>
-					</div>
-			
-			
-		</div> <!-- end: row 5 -->
-		
+					<h3 class="thumb_title">
+						<a href="meanstreak.php">Mean Streak</a>
+					</h3>
+					<p class="caption">Booklet, and Stickers</p>
+				</div>
+
+			</div> <!-- end: row 1 -->			
 		
 	</div>
 	
@@ -326,11 +335,11 @@
 			</li>
 			<span>/</span>
 			<li class="nav_Graphics">
-				<a href="../graphics/index.html">Graphics</a>
+				<a href="index.html">Graphics</a>
 			</li>			
 			<span>/</span>
 			<li class="nav_Motion">
-				<a href="index.html">Motion</a>
+				<a href="../motion/index.html">Motion</a>
 			</li>
 			<span>/</span>
 			<li class="nav_Web">

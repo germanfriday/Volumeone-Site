@@ -1,11 +1,12 @@
 
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!DOCTYPE php PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xphp1/DTD/xphp1-transitional.dtd">
 <php xmlns="http://www.w3.org/1999/xphp"> <!-- tag closed in footer.php -->
 	
 <head>
-<title>Volumeone | Motion | Meridians</title>
+<title>Volumeone | Graphics | Meridians</title>
 
 <meta http-equiv="content-type" content="text/php; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
@@ -23,7 +24,7 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <!-- * * * * * * * * NEW CODE * * * * * * * * -->
-<body id="motion" class="project"> <!-- tag closed in footer.php -->
+<body id="graphics" class="project"> <!-- tag closed in footer.php -->
 <!-- * * * * * * End: NEW CODE * * * * * * * * -->
 
 <div class="page_wrap">
@@ -50,10 +51,10 @@
 				<a class="" href="../type/index.html"><span>Type</span></a>
 			</li>
 			<li class="nav_Motion">
-				<a class="active" href="index.html"><span>Motion</span></a>
+				<a class="" href="../motion/index.html"><span>Motion</span></a>
 			</li>
 			<li class="nav_Graphics">
-				<a class="" href="../graphics/index.html"><span>Graphics</span></a>
+				<a class="active" href="index.html"><span>Graphics</span></a>
 			</li>
 			<li class="nav_Web">
 				<a class="" href="../web/index.html"><span>Web</span></a>
@@ -72,6 +73,7 @@
 </div> <!-- close div#header -->
 </div> <!-- close div.header_wrap -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <div class="content_wrap">
@@ -82,15 +84,14 @@
 	<div class="left_col">
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<div class="project_info">
-			<h1>Volumeone Showreel</h1>
+			<h1>Meridians</h1>
 			
 			<p class="description">
-				Short form motion project. Skulls, a cougar and eagle roam through time and space as a lighthouse keeps us company.
+				Meridians consists of a booklet, sticker sheet and motion piece. The overall concept centers around time and space and how this general idea translates into different mediums. </p><br /><p><a href="../motion/meridians.php">Watch the Video</a>
 			</p>
 		</div>
 		
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-		<!--
 		<div class="slideshow_controls">
 			<a class="prev disabled" href="">Previous</a>
 			<span class="count">
@@ -98,10 +99,10 @@
 			</span>
 			<a class="next" href="">Next</a>
 		</div>
-		-->
+		
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<div class="sidebar_nav">
-			<a href="index.php">Back to Motion</a>
+			<a href="index.php">Back to Graphics</a>
 			<span>/</span>
 			<a href="suspension.php">Next Project</a>
 		</div>
@@ -112,38 +113,39 @@
 	<!-- Media Slideshow (right column) -->
 	<div class="right_col">
 		<div class="slideshow">
-				<ul><br />
-					<li id="slide_1" class="slide video">
-						<script type="text/javascript"><!--
-							QT_WritePoster_XHTML('', 'media/meridians.jpg',
-								'media/meridians.mov',
-								'630', '354', '',
-								'controller', 'true',
-								'autoplay', 'true',
-								'bgcolor', 'white',
-								'scale', 'aspect');
-						//-->
-						</script>
-						<noscript>
-						<object width="630" height="354" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
-							<param name="src" value="media/meridians.jpg" />
-							<param name="href" value="media/meridians.mov" />
-							<param name="target" value="myself" />
-							<param name="controller" value="true" />
-							<param name="autoplay" value="true" />
-							<param name="scale" value="aspect" />
-							<embed width="630" height="358" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"
-								src="media/meridians.jpg"
-								href="meridians.mov"
-								target="myself"
-								controller="true"
-								autoplay="true"
-								scale="aspect">
-							</embed>
-						</object>
-						</noscript>
+			<ul>
+					
+					<li id="slide_1" class="slide image cur">
+						<img src="media/mer1.jpg" width="617" height="621" alt="" />
 					</li>
-				<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide --><br />
+
+					
+					<li id="slide_2" class="slide image ">
+						<img src="media/mer2.jpg" width="617" height="621" alt="" />
+					</li>
+
+					
+					<li id="slide_3" class="slide image ">
+						<img src="media/mer3.jpg" width="617" height="621" alt="" />
+					</li>
+
+					
+					<li id="slide_4" class="slide image ">
+						<img src="media/mer4.jpg" width="617" height="621" alt="" />
+					</li>
+
+					
+					<li id="slide_5" class="slide image ">
+						<img src="media/mer5.jpg" width="617" height="621" alt="" />
+					</li>
+
+					
+					<li id="slide_6" class="slide image ">
+						<img src="media/mer6.jpg" width="617" height="621" alt="" />
+					</li>
+
+																									
+				<div class="clear"><!--empty--></div> <!-- div.clear always placed directly after last slide -->
 			</ul>
 		</div>
 	</div> <!-- end: div.right_col -->
@@ -167,11 +169,11 @@
 			</li>
 			<span>/</span>
 			<li class="nav_Graphics">
-				<a href="../graphics/index.html">Graphics</a>
+				<a href="index.html">Graphics</a>
 			</li>			
 			<span>/</span>
 			<li class="nav_Motion">
-				<a href="index.html">Motion</a>
+				<a href="../motion/index.html">Motion</a>
 			</li>
 			<span>/</span>
 			<li class="nav_Web">
